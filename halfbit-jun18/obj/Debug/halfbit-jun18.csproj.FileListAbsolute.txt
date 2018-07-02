@@ -1,0 +1,6 @@
+F:\halfbit-jun18\halfbit-jun18\halfbit-jun18\bin\halfbit-jun18.dll.config
+F:\halfbit-jun18\halfbit-jun18\halfbit-jun18\bin\halfbit-jun18.dll
+F:\halfbit-jun18\halfbit-jun18\halfbit-jun18\bin\halfbit-jun18.pdb
+F:\halfbit-jun18\halfbit-jun18\halfbit-jun18\obj\Debug\halfbit-jun18.csprojResolveAssemblyReference.cache
+F:\halfbit-jun18\halfbit-jun18\halfbit-jun18\obj\Debug\halfbit-jun18.dll
+F:\halfbit-jun18\halfbit-jun18\halfbit-jun18\obj\Debug\halfbit-jun18.pdb
