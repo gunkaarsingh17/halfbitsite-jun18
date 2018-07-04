@@ -63,6 +63,9 @@
     <Content Include="images\new-images\contactusbanner.jpg" />
     <Content Include="cprogramming.html" />
     <Content Include="images\new-images\coursesbanner.jpg" />
+    <Content Include="images\new-images\front1.jpg" />
+    <Content Include="images\new-images\front2.jpg" />
+    <Content Include="images\new-images\front3.jpg" />
     <Content Include="javawithdatastructures.html" />
     <Content Include="javaprogramming.html" />
     <Content Include="card-test.html" />
