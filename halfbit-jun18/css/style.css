@@ -695,6 +695,7 @@ header .icon .btn-primary:active:hover{
 }
 .product-thumb {
 	margin-bottom:30px;
+    background-color:white;
 }
 .product-thumb img{
 	border-radius:4px 4px 0 0;
@@ -2993,6 +2994,7 @@ footer .powered p{
 	}
 	.product-thumb img {
 		width:100%;
+
 	}
 	.abouts ul li{
 		font-size:12px;
@@ -3691,3 +3693,38 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width:400px;
   }
 }
+
+/* course images */
+.androidcourse{
+    display: block;
+    margin-left: 85px;
+    margin-right: auto;
+    width: 50%;
+}
+.ccourse{display: block;
+    margin-left: 85px;
+    margin-right: auto;
+    width: 50%;}
+
+.javacourse {
+    display: block;
+    margin-left: 85px;
+    margin-right: auto;
+    width: 59%;
+}
+
+.javadscourse {
+    display: block;
+    margin-left: 85px;
+    margin-right: auto;
+    width: 59%;
+}
+
+.dmcourse {
+    display: block;
+    margin-left: 60px;
+    margin-right: auto;
+    width: 69%;
+}
+
+    /* courses images end*/ 
