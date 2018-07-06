@@ -77,7 +77,6 @@
     <Content Include="javawithdatastructures.html" />
     <Content Include="javaprogramming.html" />
     <Content Include="card-test.html" />
-    <Content Include="datastructuresusingc.html" />
     <Content Include="images\new-images\androidappdev.jpg" />
     <Content Include="androidappdevelopment.html" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
