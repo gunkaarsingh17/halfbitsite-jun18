@@ -212,6 +212,8 @@
     <Content Include="js\preetycheble\prettyCheckable.css" />
     <Content Include="js\preetycheble\prettyCheckable.min.js" />
     <Content Include="js\timer.js" />
+    <Content Include="sitemap.html" />
+    <Content Include="sitemap.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

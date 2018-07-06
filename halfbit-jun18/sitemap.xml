@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://www.halfbit.in/</loc>
+  <lastmod>2018-07-06T10:14:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.halfbit.in/contactus.html</loc>
+  <lastmod>2018-07-06T10:14:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.halfbit.in/index.html</loc>
+  <lastmod>2018-07-06T10:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.halfbit.in/aboutus.html</loc>
+  <lastmod>2018-07-06T10:14:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.halfbit.in/androidappdevelopment.html</loc>
+  <lastmod>2018-07-06T10:14:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.halfbit.in/javaprogramming.html</loc>
+  <lastmod>2018-07-06T10:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.halfbit.in/javawithdatastructures.html</loc>
+  <lastmod>2018-07-06T10:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.halfbit.in/cprogramming.html</loc>
+  <lastmod>2018-07-06T10:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.halfbit.in/digitalmarketing.html</loc>
+  <lastmod>2018-07-06T10:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
