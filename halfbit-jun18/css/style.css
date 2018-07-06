@@ -80,6 +80,7 @@ a:focus{
 .paddright{
 	padding-right:0;
 }
+
 /*--------------------
 [ top / top ]
 ---------------------*/
@@ -695,15 +696,15 @@ header .icon .btn-primary:active:hover{
 }
 .product-thumb {
 	margin-bottom:30px;
-    background-color:white;
 }
 .product-thumb img{
 	border-radius:4px 4px 0 0;
 }
 .product-thumb .caption{
-	border:1px solid #E5E5E5;
-	border-top:0;
-	border-radius: 0 0px 4px 4px;
+	/*border:1px solid #E5E5E5;*/
+	/*border-top:0;*/
+	/*border-radius: 0 0px 4px 4px;*/
+	border: none;
 	background:#fff;
 }
 .product-thumb .caption h3{
@@ -783,6 +784,15 @@ header .icon .btn-primary:active:hover{
 .product-thumb .caption h5, .product-thumb .caption h6{
 	display:none;
 }
+.product-thumb .image {
+	text-align: center; 
+  background-color: #fff;
+   min-height: 180px;
+}
+.product-thumb .image img {
+	   vertical-align: middle;  
+}
+
 .product-list .caption h5, .product-list .caption h6{
 	display:block;
 }
@@ -1035,9 +1045,33 @@ header .icon .btn-primary:active:hover{
 #newsletter .news span{
 	font-weight:600;
 }
+
+#newsletter .form-group{
+	margin-bottom:25px;
+}
+#newsletter .form-group input, #newsletter .form-group textarea{
+	padding:20px;
+}
+#newsletter .form-group input.form-control{
+	height:auto;
+}
+#newsletter .form-group textarea.form-control{
+	height:248px;
+}
+#newsletter .form-control:focus{
+	border-color:#F05F40;
+	box-shadow:none;
+}
+
 #newsletter .form-group{
 	margin:0;
 }
+
+#newsletter .form-group .text-danger{
+	text-align: left;
+	color: .text-danger;
+}
+
 #newsletter .input-group{
 	width:100%;
 }
@@ -1060,6 +1094,8 @@ header .icon .btn-primary:active:hover{
 	border:1px solid  #F05F40;
 	height:40px;
 }
+
+
 /*----------------------
 [ footer / .footer ]
 ------------------------ */
@@ -2994,7 +3030,6 @@ footer .powered p{
 	}
 	.product-thumb img {
 		width:100%;
-
 	}
 	.abouts ul li{
 		font-size:12px;
@@ -3693,38 +3728,3 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width:400px;
   }
 }
-
-/* course images */
-.androidcourse{
-    display: block;
-    margin-left: 85px;
-    margin-right: auto;
-    width: 50%;
-}
-.ccourse{display: block;
-    margin-left: 85px;
-    margin-right: auto;
-    width: 50%;}
-
-.javacourse {
-    display: block;
-    margin-left: 85px;
-    margin-right: auto;
-    width: 59%;
-}
-
-.javadscourse {
-    display: block;
-    margin-left: 85px;
-    margin-right: auto;
-    width: 59%;
-}
-
-.dmcourse {
-    display: block;
-    margin-left: 60px;
-    margin-right: auto;
-    width: 69%;
-}
-
-    /* courses images end*/ 

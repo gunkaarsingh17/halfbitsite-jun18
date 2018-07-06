@@ -593,39 +593,83 @@ manage their data easily through data structures and also the need of JVM and JD
 </div>
 <!-- coures end here -->
 
-    <!-- Form + Map Start -->
-    <a name="Form"></a>
-    <div id="newsletter">
-        <div class="container">
-            <div class="row">
-                <div id="subscribe">
-                    <form class="form-horizontal" name="subscribe">
-                        <div class="col-sm-6 col-xs-12">
-                            <p class="news">Query <span>Form</span></p>
-                            <p>Fill out the form and we'll get to you shortly.</p>
+   
+<!-- Form + Map Start -->
+<a name="Form"></a>
+<div id="newsletter">      
+    <div class="container">
+        <!-- <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <div class="commontop text-center">
+                         <h2 class="news">Query <span>Form</span></h2>
+                         <p>Fill out the form and we'll get to you shortly.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div> -->
+        <div class="row">
+            <div class="col-md-6">
+            <p class="news">Query <span>Form</span></p>
+            <p>Fill out the form and we'll get to you shortly.</p>
+            </div>
+          <div class="col-lg-12">
+             <form id="contactForm" name="sentMessage" novalidate  >
 
-                            <div class="input-group">
-                                <input value="" name="name" id="name" placeholder="Name" type="text"><br /><br />
-                                <input value="" name="subscribe_email" id="subscribe_email" placeholder="E-mail Address" type="text"><br /><br />
+              <div class="row">
+                <div class="col-md-6">
+                       
+                  <div class="form-group">
+                    <input class="form-control" id="name" name="name" type="text" placeholder="Name *" required data-validation-required-message="Please enter your name.">
+                    <small class="help-block text-danger"></small>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" name="email" type="email" placeholder="Email *" required data-validation-required-message="Please enter your email address.">
+                    <small class="help-block text-danger" ></small>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" name="phone" type="tel" placeholder="Phone *" required data-validation-required-message="Please enter your phone number.">
+                    <small class="help-block text-danger"></small>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="college" name="college" placeholder="College *" required data-validation-required-message="Please enter your college name."></input>
+                    <small class="help-block text-danger"></small>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="course" name="course" placeholder="Course interested in *" required data-validation-required-message="Please enter course interested in."></input>
+                    <small class="help-block text-danger"></small>
+                  </div>
 
-                                <input value="" name="Course" id="course" placeholder="Course" type="text"><br /><br />
- 
-                                <input value="" name="phno" id="name" placeholder="Phone Number" type="text"><br /><br />
-                                <input value="" name="query" id="name" placeholder="Query" type="text"><br /><br />
-                                <button class="btn btn-news" type="submit" value="submit">Submit</button>
+                  <!-- <div class="form-group">
+                    <input class="form-control" list="courses" name="course" placeholder="Course*" required data-validation-required-message="Please enter course.">
+                    <datalist id="courses">
+                    <option value="Android App Development">
+                    <option value="Java Foundation">
+                    <option value="Java with Data Structures">
+                    <option value="C/C++ with Data Structures">
+                    </datalist>
+                    <small class="help-block text-danger"></small>
+                  </div> -->
 
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.4023741171713!2d77.12344681445846!3d28.70751868743522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01600a5a6bd5%3A0x3f29a657f79c70dd!2sHalfbit+Education!5e0!3m2!1sen!2sin!4v1530256206710" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                    </form>
+                  <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" >Send</button>
+                </div>
+                </div>
+                <div class="col-md-6">
+                        
+                    <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.4023741171713!2d77.12344681445846!3d28.70751868743522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01600a5a6bd5%3A0x3f29a657f79c70dd!2sHalfbit+Education!5e0!3m2!1sen!2sin!4v1530256206710" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
+                <div class="clearfix"></div>
+            </form>
+            
+          </div>
         </div>
+      </div>
+   
     </div>
     <!-- Form + Map End -->
-
 <!-- footer start here -->
     <footer>
         <div class="container">
@@ -726,14 +770,17 @@ manage their data easily through data structures and also the need of JVM and JD
 <script src="js/jquery.2.1.1.min.js" type="text/javascript"></script>
 <!-- bootstrap js -->
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/check.js"></script>
-<script src="js/preetycheble/prettyCheckable.min.js"></script>
+<!-- <script src="js/check.js"></script> -->
+<!-- <script src="js/preetycheble/prettyCheckable.min.js"></script> -->
 <!--bootstrap select-->
 <script src="js/dist/js/bootstrap-select.js" type="text/javascript"></script>
 <!-- owlcarousel js -->
 <script src="js/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
 <!--internal js-->
 <script src="js/internal.js" type="text/javascript"></script>
+<!-- Contact form JavaScript -->
+    <script src="jqBootstrapValidation.js"></script>
+    <script src="contact_me.js"></script>
 </body>
 
 </html>
