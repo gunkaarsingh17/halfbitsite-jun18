@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="digitalmarketing.html" />
+    <Content Include="favicon.ico" />
     <Content Include="images\new-images\aboutusbanner.jpg" />
     <Content Include="images\new-images\android.png" />
     <Content Include="images\new-images\c.png" />
@@ -70,6 +71,9 @@
     <Content Include="images\new-images\front2.jpg" />
     <Content Include="images\new-images\front3.jpg" />
     <Content Include="images\new-images\java-logo.png" />
+    <Content Include="images\new-images\prakhar1.jpg" />
+    <Content Include="images\new-images\preksha.jpg" />
+    <Content Include="images\new-images\sanjaysir.jpg" />
     <Content Include="javawithdatastructures.html" />
     <Content Include="javaprogramming.html" />
     <Content Include="card-test.html" />
@@ -169,7 +173,6 @@
     <Content Include="images\new-images\hf %282%29.png" />
     <Content Include="images\new-images\hf.png" />
     <Content Include="images\new-images\hflogo.png" />
-    <Content Include="images\new-images\javads.jpeg" />
     <Content Include="images\p1.jpg" />
     <Content Include="images\p2.jpg" />
     <Content Include="images\p3.jpg" />

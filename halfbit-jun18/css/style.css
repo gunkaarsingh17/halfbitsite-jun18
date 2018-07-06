@@ -1294,7 +1294,7 @@ footer .powered p{
 	margin-bottom:30px;
 }
 .team .box img{
-	border-radius:4px 4px 0 0;
+	border-radius:50% 50%;
 }
 .team .box .caption{
 	border:1px solid #E5E5E5;
