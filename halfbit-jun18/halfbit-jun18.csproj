@@ -92,6 +92,7 @@
     <Content Include="icofont\fonts\icofont7858.eot" />
     <Content Include="icofont\fonts\icofont7858.ttf" />
     <Content Include="icofont\fonts\icofont7858.woff" />
+    <Content Include=".htaccess" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
