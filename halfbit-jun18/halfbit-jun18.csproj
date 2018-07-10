@@ -93,6 +93,7 @@
     <Content Include="icofont\fonts\icofont7858.ttf" />
     <Content Include="icofont\fonts\icofont7858.woff" />
     <Content Include=".htaccess" />
+    <Content Include="js\contact_me.min,js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -201,7 +202,10 @@
     <Content Include="js\check.js" />
     <Content Include="js\dist\css\bootstrap-select.css" />
     <Content Include="js\dist\js\bootstrap-select.js" />
+    <Content Include="js\dist\js\bootstrap-select.min.js" />
     <Content Include="js\internal.js" />
+    <Content Include="js\internal.min.js" />
+    <Content Include="js\jqBootstrapValidation.min.js" />
     <Content Include="js\jquery.2.1.1.min.js" />
     <Content Include="js\owl-carousel\grabbing.png" />
     <Content Include="js\owl-carousel\owl.carousel.css" />

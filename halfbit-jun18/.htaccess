@@ -17,3 +17,8 @@ ExpiresDefault "access 1 month"
 
 # This allows you to redirect your entire website to any other domain
 Redirect 301 / http://www.halfbit.in
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^halfbit.in [NC]
+RewriteRule ^(.*)$ http://www.halfbit.in [R=301,L]
