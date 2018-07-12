@@ -1,5 +1,6 @@
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
+RewriteEngine on
 ExpiresActive On
 ExpiresByType image/jpg "access 1 month"
 ExpiresByType image/jpeg "access 1 month"

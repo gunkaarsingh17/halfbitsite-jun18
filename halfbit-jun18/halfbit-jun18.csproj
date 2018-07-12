@@ -57,10 +57,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="all_courses_singleview.html" />
     <Content Include="digitalmarketing.html" />
     <Content Include="favicon.ico" />
     <Content Include="images\new-images\aboutusbanner.jpg" />
     <Content Include="images\new-images\android.png" />
+    <Content Include="images\new-images\C++ Developer.jpg" />
     <Content Include="images\new-images\c.png" />
     <Content Include="images\new-images\contactusbanner1.jpg" />
     <Content Include="images\new-images\contactusbanner.jpg" />
@@ -70,10 +72,12 @@
     <Content Include="images\new-images\front1.jpg" />
     <Content Include="images\new-images\front2.jpg" />
     <Content Include="images\new-images\front3.jpg" />
+    <Content Include="images\new-images\Java Developer.jpg" />
     <Content Include="images\new-images\java-logo.png" />
     <Content Include="images\new-images\prakhar1.jpg" />
     <Content Include="images\new-images\preksha.jpg" />
     <Content Include="images\new-images\sanjaysir.jpg" />
+    <Content Include="index2.html" />
     <Content Include="javawithdatastructures.html" />
     <Content Include="javaprogramming.html" />
     <Content Include="card-test.html" />
